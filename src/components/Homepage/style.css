@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #212529;
+}
+
+.main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main section {
+  display: flex;
+  flex-direction: column;
+}
+
+.main section h1 {
+  font-size: 20px;
+  color: #fd377e;
+}
+
+.main section h1 span {
+  color: white;
+}
+
+.main section p {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 15px 0;
+  width: 15ch;
+}
+
+.main section small {
+  font-size: 16px;
+}
+
+.main section button {
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #fd377e;
+  border: 2px solid transparent;
+  padding: 13px 20px;
+}
