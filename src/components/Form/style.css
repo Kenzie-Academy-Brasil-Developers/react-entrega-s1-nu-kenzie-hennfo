@@ -1,0 +1,40 @@
+.set-form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-width: 150px;
+  max-width: 300px;
+  height: 350px;
+  padding: 25px;
+  border: 2px solid #e9ecef;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.set-form input {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 2px transparent solid;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  color: #868e96;
+}
+
+.set-form label {
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+.set-form .options {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 2px transparent solid;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  color: #868e96;
+}
+
+.button-form {
+  color: white;
+  background-color: #fd377e;
+}
