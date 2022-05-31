@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85px;
+  width: 90%;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin: 15px 0;
+  color: #212529;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 25px #868e96;
+  transition: 0.5s;
+}
+
+.card small {
+  color: #5b6166;
+}
+
+.entrada {
+  border-left: #03b898 3px solid;
+}
+
+.saída {
+  border-left: #e9ecef 3px solid;
+}
+
+.card h3 {
+  align-self: flex-start;
+  margin: 0;
+}
+
+.card span {
+  align-self: flex-end;
+}
+
+.card .price-button-display {
+  align-self: flex-end;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.price-button-display .button-trash {
+  margin: 0 10px;
+}
+
+.price-button-display .button-trash img {
+  width: 15px;
+}
